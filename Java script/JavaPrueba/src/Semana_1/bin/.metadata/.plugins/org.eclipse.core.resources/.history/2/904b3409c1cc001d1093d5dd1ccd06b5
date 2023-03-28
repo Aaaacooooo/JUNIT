@@ -1,0 +1,31 @@
+package Ejercicios;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class calculadoraTest {
+
+	@Test
+	void testSuma() {
+		calculadora calcu = new calculadora(20, 10);
+		int resultado = calcu.suma();
+		assertEquals(30, resultado);
+	}
+
+	@Test
+	void testResta() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testMultiplica() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testDivide() {
+		fail("Not yet implemented");
+	}
+
+}
